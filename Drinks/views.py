@@ -4,6 +4,16 @@ from .serializers import DrinkSerializer
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
+from .models import Customer, Category, Ingredient, Drink, Order, Review, OrderItem
+from .serializers import (
+    CustomerSerializer,
+    CategorySerializer,
+    IngredientSerializer,
+    DrinkSerializer,
+    OrderSerializer,
+    ReviewSerializer,
+    OrderItemSerializer,
+)
 
 
 # CRUD
@@ -43,3 +53,39 @@ def drink_detail(request, id, format=None):
         drink.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
+
+@api_view(['GET'])
+def customer_list(request):
+    customers = Customer.objects.all()
+    serializer = CustomerSerializer(customers, many=True)
+    return Response({"customers": serializer.data})
+
+@api_view(['GET'])
+def category_list(request):
+    categories = Category.objects.all()
+    serializer = CategorySerializer(categories, many=True)
+    return Response({"categories": serializer.data})
+
+@api_view(['GET'])
+def ingredient_list(request):
+    ingredients = Ingredient.objects.all()
+    serializer = IngredientSerializer(ingredients, many=True)
+    return Response({"ingredients": serializer.data})
+
+@api_view(['GET'])
+def order_list(request):
+    orders = Order.objects.all()
+    serializer = OrderSerializer(orders, many=True)
+    return Response({"orders": serializer.data})
+
+@api_view(['GET'])
+def review_list(request):
+    reviews = Review.objects.all()
+    serializer = ReviewSerializer(reviews, many=True)
+    return Response({"reviews": serializer.data})
+
+@api_view(['GET'])
+def order_item_list(request):
+    order_items = OrderItem.objects.all()
+    serializer = OrderItemSerializer(order_items, many=True)
+    return Response({"order_items": serializer.data})

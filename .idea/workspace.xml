@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a219b41-e595-400e-a6b9-19f8d5ee46f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Drinks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drinks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drinks/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drinks/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drinks/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drinks/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drinks/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drinks/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drinks/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drinks/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consume.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drinks/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Drinks/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drinks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Drinks/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drinks/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Drinks/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drinks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Drinks/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704965823672</updated>
-      <workItem from="1704965827385" duration="8905000" />
+      <workItem from="1704965827385" duration="11430000" />
     </task>
     <servers />
   </component>
